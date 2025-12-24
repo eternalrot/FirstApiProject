@@ -118,22 +118,22 @@ The API supports full CRUD operations and follows standard REST conventions.
 1. Using the **POST** method, a new product can be created by sending its data in JSON format to the /api/v1/products endpoint.
    - http://localhost:8080/api/v1/products
      
-     ![image alt]()
+     ![image alt](https://github.com/eternalrot/FirstApiProject/blob/main/imagePOST.png?raw=true)
      
 2. The **GET** method allows retrieving a single product by its identifier (/api/v1/products/{id}) or fetching all existing products (/api/v1/products).
    - http://localhost:8080/api/v1/products/1
      
-     ![image alt]()
+     ![image alt](https://github.com/eternalrot/FirstApiProject/blob/main/imageGET.png?raw=true)
      
 3. Product data can be updated using the **PUT** method with the product ID specified in the URL and the new values provided in the request body.
    - http://localhost:8080/api/v1/products/1
      
-     ![image alt]()
+     ![image alt](https://github.com/eternalrot/FirstApiProject/blob/main/imagePUT.png?raw=true)
      
 4. Finally, the **DELETE** method enables removing a product from the system by its ID.
    - http://localhost:8080/api/v1/products/1
      
-     ![image alt]()
+     ![image alt](https://github.com/eternalrot/FirstApiProject/blob/main/imageDELETE.png?raw=true)
      
 All endpoints return JSON responses and appropriate HTTP status codes, making the API easy to test using tools such as Postman or Swagger.
 
@@ -164,7 +164,7 @@ This project uses an H2 in-memory database, which exists only while the applicat
 3. View All Products in Database
   - SELECT * FROM PRODUCTS;
 
-    ![image alt]()
+    ![image alt](https://github.com/eternalrot/FirstApiProject/blob/main/imageDATABASE.png?raw=true)
 
 ---
 
