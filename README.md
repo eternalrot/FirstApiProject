@@ -93,7 +93,7 @@ The project was created as part of an academic assignment and focuses on:
 
 ---
 
-## 🧠 How ProductRepository Works (Important Explanation)
+## 🧠 How ProductRepository Works
 
 Although `ProductRepository` does not explicitly implement methods like `save`, `findById`, or `deleteById`, it extends `JpaRepository`.
 Spring Data JPA automatically provides implementations for these methods at runtime using dynamic proxy generation.
